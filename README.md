@@ -15,4 +15,3 @@ The target feature is Accident_severity which is a multi-class variable. The tas
 
 🥽 **Application Preview:**
 ![image](https://user-images.githubusercontent.com/104824947/212529165-84716c68-2f41-49b9-82d2-61fc165db2df.png)
-

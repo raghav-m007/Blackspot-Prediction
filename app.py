@@ -5,10 +5,9 @@ from prediction import get_prediction, ordinal_encoder
 
 model = joblib.load(r'Model/modelfinal.joblib')
 
-st.set_page_config(page_title="Blackspot Accident Severity Prediction App", layout="wide")
 
 
-st.markdown("<h1 style='text-align: center;'>Accident Severity Prediction App 🚧</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Blackspot Accident Severity Prediction</h1>", unsafe_allow_html=True)
 
 columns = '''Column 'NO OF FATALITIES' has 3 unique value(s): ['0' '1' '2']
 Column 'GRIEVOUSLY INJURED' has 6 unique value(s): ['1' '0' '2' '3' '4' '6']
