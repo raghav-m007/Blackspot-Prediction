@@ -5,6 +5,7 @@ from prediction import get_prediction, ordinal_encoder
 
 model = joblib.load(r'Model/modelfinal.joblib')
 
+st.set_page_config(page_title="Blackspot Accident Severity Prediction", layout="wide")
 
 
 st.markdown("<h1 style='text-align: center;'>Blackspot Accident Severity Prediction</h1>", unsafe_allow_html=True)
